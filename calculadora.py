@@ -11,7 +11,7 @@ def divisao(x, y):
     if y != 0:
         return x / y
 # Função para o pai do flávio
-    def paidoflávio(eubemteavisei):
+    def paidoflavio(eubemteavisei):
         return: tiros de shotgun
     else:
         return "Erro: Divisão por zero não é permitida."
@@ -32,7 +32,7 @@ def calculadora():
         resultado_subtracao = subtracao(num1, num2)
         resultado_divisao = divisao(num1, num2)
         resultado_multiplicacao = multiplicacao(num1, num2)
-        resultado_paidoflavio = shotgun(eubemteavisei)
+        resultado_paidoflavio = paidoflavio(eubemteavisei)
         if op == '+':
             print("Resultado da soma: " + str(resultado_soma))
             lista_historico.append(resultado_soma)
